@@ -1,0 +1,102 @@
+:root {
+  --bgcolor: #282D35;
+  --bordercolor: #21222A;
+  --headcolor: #58c4dc;
+}
+
+* {
+  font-family: "Roboto";
+  color: #fff;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bgcolor);
+}
+
+header {
+  background-color: var(--bordercolor);
+  width: 100%;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  font-size: 10px;
+  margin: 20px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: right;
+  width: 80%;
+  list-style-type: none;
+}
+
+.nav-bar ul li {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.nav-bar img {
+  width: 60px;
+  height: 55px;
+}
+
+.main-facts li {
+  margin: 10px 60px;
+}
+
+.main-facts li::marker {
+  color: var(--headcolor);
+  font-size: 24px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo h1 {
+  color: var(--headcolor);
+  font-size: 30px;
+  padding: 0 10px;
+}
+
+div h1 {
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+}
+
+.main-body {
+  background-image: url(/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+
+  padding: 60px 30px;
+  height: 80vh;
+}
+
+.main-body h1 {
+  text-align: left;
+  letter-spacing: -0.05em;
+}
